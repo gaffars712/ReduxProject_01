@@ -8,7 +8,7 @@ const Navbar = () => {
     <div style={{display:"flex",justifyContent:"space-between"}}>
         <span className='logo'> Flipf Store</span>
         <div>
-            <Link style={{marginRight:"1rem"}}  className='navLink' to={'/'}> Home</Link>
+            <Link style={{marginRight:"1rem"}}  className='navLink' to={'ReduxProject_01'}> Home</Link>
             <Link className='navLink' style={{marginRight:"2rem"}}  to={'/cart'}>Cart</Link>
             <span className='CartCount'>Cart Items :- {selectore.length}</span>
         </div>

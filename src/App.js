@@ -10,7 +10,7 @@ function App() {
    <BrowserRouter>
    <Navbar/>
    <Routes>
-    <Route exact  path='/' element={<Home/>} ></Route>
+    <Route exact  path='ReduxProject_01' element={<Home/>} ></Route>
     <Route  path='/cart' element={<Card/>} ></Route>
 
    </Routes>
